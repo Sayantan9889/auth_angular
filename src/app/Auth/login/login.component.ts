@@ -23,10 +23,10 @@ export class LoginComponent {
 
   login_user() {
     this.formDetails = this.formData.value;
-    console.log(this.formDetails);
+    // console.log(this.formDetails);
     
     this.httpSer.login(this.formDetails).subscribe((res:any) => {
-      console.log(res);
+      // console.log(res);
       
     })
   }
